@@ -1,0 +1,18 @@
+{
+  "name": "nosql-api",
+  "version": "1.0.0",
+  "description": "A monadic nosql API that writes bytecode.",
+  "main": "test.js",
+  "type": "module",
+  "scripts": {
+    "test": "babel-node test.js"
+  },
+  "author": "apaz-cli",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/node": "^7.13.13",
+    "express": "^4.17.1",
+    "isomorphic-fetch": "^3.0.0"
+  }
+}
